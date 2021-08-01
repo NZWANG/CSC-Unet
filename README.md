@@ -15,6 +15,10 @@ Y. Liu, J. Yao, X. Lu, R. Xie, and L. Li,  “DeepCrack: A deep hierarchical fea
 https://www.kaggle.com/c/data-science-bowl-2018/overview  
 
 
+<div style="align: center">
+<img src="(https://user-images.githubusercontent.com/32182817/127757650-35238581-8138-428e-b77f-6d7924e63cb8.png"/>
+</div>
+
 ---------:![image](https://user-images.githubusercontent.com/32182817/127757650-35238581-8138-428e-b77f-6d7924e63cb8.png)
 
 Examples of semantic segmentation results on CamVid, DeepCrack, and Nuclei test set. (a) Input images, (b) Ground truths, (c) Results of U-Net, and (d) Results of CSC-Unet-All (best).
