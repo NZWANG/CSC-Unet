@@ -14,3 +14,5 @@ Y. Liu, J. Yao, X. Lu, R. Xie, and L. Li,  “DeepCrack: A deep hierarchical fea
 
 https://www.kaggle.com/c/data-science-bowl-2018/overview  
 
+
+![image](https://user-images.githubusercontent.com/32182817/127757650-35238581-8138-428e-b77f-6d7924e63cb8.png)
