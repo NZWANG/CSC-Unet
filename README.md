@@ -1,4 +1,5 @@
 # CSC-Unet: A Novel Convolutional Sparse Coding Strategy based Neural Network for Semantic Segmentation
+  Haitong Tang, Shuang He, Xia Lu, Qin Yu, Kaiyue Liu, Hongjie Yan and Nizhuan Wang*
 
 # 1 Datasets
 
