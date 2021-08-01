@@ -10,12 +10,12 @@ G. J. Brostow, J. Shotton, J. Fauqueur, and R. Cipolla,  “Segmentation and rec
 http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/
 
 
-***DeepCrack:***  
+**DeepCrack:**  
 
 Y. Liu, J. Yao, X. Lu, R. Xie, and L. Li,  “DeepCrack: A deep hierarchical feature learning architecture for crack segmentation” 
 https://github.com/yhlleo/DeepCrack
 
-***Nuclei:*** 
+**Nuclei:** 
 
 https://www.kaggle.com/c/data-science-bowl-2018/overview  
 
