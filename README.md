@@ -2,9 +2,9 @@
 
 ## 1 Datasets
 
-For perform a fair evaluation, we select different scenarios datasets.
+For perform a fair evaluation, we chose the following different scenarios datasets.
 
-***CamVid:***
+**CamVid:**
 
 G. J. Brostow, J. Shotton, J. Fauqueur, and R. Cipolla,  “Segmentation and recognition using structure from motion point clouds” 
 http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/
