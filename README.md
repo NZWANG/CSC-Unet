@@ -8,9 +8,11 @@ For perform a fair evaluation, we select different scenarios datasets.
 
 G. J. Brostow, J. Shotton, J. Fauqueur, and R. Cipolla,  “Segmentation and recognition using structure from motion point clouds” 
 
+
 ***DeepCrack:***  
 
-Y. Liu, J. Yao, X. Lu, R. Xie, and L. Li,  “DeepCrack: A deep hierarchical feature learning architecture for crack segmentation”  
+Y. Liu, J. Yao, X. Lu, R. Xie, and L. Li,  “DeepCrack: A deep hierarchical feature learning architecture for crack segmentation” 
+https://github.com/yhlleo/DeepCrack
 
 ***Nuclei:*** 
 
