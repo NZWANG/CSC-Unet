@@ -1,6 +1,6 @@
 # CSC-Unet: A Novel Convolutional Sparse Coding Strategy based Neural Network for Semantic Segmentation
 
-## Datasets
+# Datasets
 
 For perform a fair evaluation, we chose the following different scenarios datasets.
 
@@ -19,7 +19,7 @@ https://github.com/yhlleo/DeepCrack
 
 https://www.kaggle.com/c/data-science-bowl-2018/overview  
 
-## Partial images from the paper
+# Partial images from the paper
 
 ![image](https://user-images.githubusercontent.com/32182817/127757796-d735c534-adf1-416a-af19-94e69a903a93.png)
 
