@@ -5,18 +5,17 @@
 
 For perform a fair evaluation, we chose the following different scenarios datasets.
 
-**CamVid:**
+- **CamVid:**
 
 G. J. Brostow, J. Shotton, J. Fauqueur, and R. Cipolla,  “Segmentation and recognition using structure from motion point clouds” 
 http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/
 
-
-**DeepCrack:**  
+- **DeepCrack:**  
 
 Y. Liu, J. Yao, X. Lu, R. Xie, and L. Li,  “DeepCrack: A deep hierarchical feature learning architecture for crack segmentation” 
 https://github.com/yhlleo/DeepCrack
 
-**Nuclei:** 
+- **Nuclei:** 
 
 https://www.kaggle.com/c/data-science-bowl-2018/overview  
 
