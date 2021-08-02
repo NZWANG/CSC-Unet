@@ -1,5 +1,6 @@
 # CSC-Unet: A Novel Convolutional Sparse Coding Strategy based Neural Network for Semantic Segmentation
 
+This repository is about the implemented core code and some additional detailed results of CSC-Unet.
 
 # 1 Datasets
 
