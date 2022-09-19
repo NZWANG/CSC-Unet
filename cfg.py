@@ -3,7 +3,7 @@
 
 EPOCH_NUMBER = 200
 BATCH_SIZE = 4
-DATASET = ['CamVid', 12]
+DATASET = ['Camvid', 12]
 crop_size = (352, 480)
 unfolding = 2
 lr = 1e-4
