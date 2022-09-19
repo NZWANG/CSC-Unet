@@ -1,30 +1,32 @@
-# CSC-Unet: A Novel Convolutional Sparse Coding Strategy based Neural Network for Semantic Segmentation
+## CSC-Unet: A Novel Convolutional Sparse Coding Strategy based Neural Network for Semantic Segmentation
 
-This repository is about the implemented core code and some additional detailed results of CSC-Unet.
+The implemented core codes of **CSC-Unet** are open here. 
 
-# 1 Datasets
+If you used our CSC-Unet codes, please cite our paper: 
 
-For perform a fair evaluation, we chose the following different scenarios datasets.
+Tang H, He S, Lu X, et al. CSC-Unet: A Novel Convolutional Sparse Coding Strategy based Neural Network for Semantic Segmentation[J]. arXiv preprint arXiv:2108.00408, 2021. https://arxiv.org/abs/2108.00408
 
-- **CamVid:**
+If you have any question or collaboration suggestion about our method, please contact wangnizhuan1120@gmail.com. 
 
-G. J. Brostow, J. Shotton, J. Fauqueur, and R. Cipolla,  “Segmentation and recognition using structure from motion point clouds” http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/
+The codes of various networks were tested in Pytorch 1.5 version or higher versions(a little bit different from 0.8 version in some functions) in Python 3.8 on Ubuntu machines (may need minor changes on Windows).
 
-- **DeepCrack:**  
+### Usage for CSC-Unet
 
-Y. Liu, J. Yao, X. Lu, R. Xie, and L. Li,  “DeepCrack: A deep hierarchical feature learning architecture for crack segmentation” 
-https://github.com/yhlleo/DeepCrack
+- 1. Clone this repo to local
 
-- **Nuclei:** 
+```
+git clone https://github.com/NZWANG/CSC-Unet.git
+```
 
-https://www.kaggle.com/c/data-science-bowl-2018/overview  
+ - 2. Download the experiment dataset from the link below, and put it into the directory: ```./Datasets/CamVid/```	```./Datasets/DeepCrack/```	```./Datasets/Nuclei/```
+      1) CamVid: G. J. Brostow, J. Shotton, J. Fauqueur, and R. Cipolla,  “Segmentation and recognition using structure from motion point clouds” http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/
+      2)  DeepCrack:   Y. Liu, J. Yao, X. Lu, R. Xie, and L. Li,  “DeepCrack: A deep hierarchical feature learning architecture for crack segmentation” https://github.com/yhlleo/DeepCrack
+      3)  Nuclei: https://www.kaggle.com/c/data-science-bowl-2018/overview  
+- 3. Set the hyper parameters of the experiment in `cfg.py.`
 
-# 2 Partial images from the paper
+- 4. run the code by command 
 
-![image](https://user-images.githubusercontent.com/32182817/127757796-d735c534-adf1-416a-af19-94e69a903a93.png)
+```bash
+python train.py
+```
 
-Fig. 1.  Structures of (a) U-Net, (b) our CSC-Unet-Encode, (c) our CSC-Unet-Decode, and (d) our CSC-Unet-All, respectively.
-
-![image](https://user-images.githubusercontent.com/32182817/127757650-35238581-8138-428e-b77f-6d7924e63cb8.png)
-
-Fig. 2.  Examples of semantic segmentation results on CamVid, DeepCrack, and Nuclei test set. (a) Input images, (b) Ground truths, (c) Results of U-Net, and (d) Results of CSC-Unet-All (best).
