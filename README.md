@@ -25,7 +25,7 @@ git clone https://github.com/NZWANG/CSC-Unet.git
       3)  Nuclei: https://www.kaggle.com/c/data-science-bowl-2018/overview  
 - 3. Set the hyper parameters of the experiment in `cfg.py.`
 
-- 4. run the code by command 
+- 4. Run the code by command 
 
 ```bash
 python train.py
