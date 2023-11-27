@@ -1,5 +1,5 @@
-## CSC-Unet: A Novel Convolutional Sparse Coding Strategy based Neural Network for Semantic Segmentation
-2023年2月11日12:35:34
+# CSC-Unet: A Novel Convolutional Sparse Coding Strategy based Neural Network for Semantic Segmentation
+
 
 The implemented core codes of **CSC-Unet** are open here. 
 
