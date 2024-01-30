@@ -8,7 +8,7 @@ from torch import optim
 from torch.utils.data import DataLoader
 from dataset import LoadDataset
 from evalution_segmentaion import eval_semantic_segmentation
-import CSC_Unet
+import Models import CSC_Unet
 import cfg
 
 if __name__ == "__main__":
