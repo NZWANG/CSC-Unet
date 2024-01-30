@@ -8,11 +8,19 @@ from torch import optim
 from torch.utils.data import DataLoader
 from dataset import LoadDataset
 from evalution_segmentaion import eval_semantic_segmentation
-import Models import CSC_Unet
 import cfg
 
-if __name__ == "__main__":
+from Models.CSC_Unet import CSC_UNet
+from Models.CSCUNetPP import UNetPP
+from Models.CSCUNetPP import CSCUNetPP
+from Models.CSCUNetPPP import UNet3PlusDeepSup as UNetPPP
+from Models.CSCUNetPPP import CSCUNet3PlusDeepSup as CSCUNetPPP
+from Models.CSCDeepLabv3P import DeepLabv3p
+from Models.CSCDeepLabv3P import CSCDeepLabv3p
 
+if __name__ == "__main__":
+    UNFOLDING = cfg.unfolding
+    NUM_CLASS = cfg.DATASET[1]
     device = t.device('cuda') if t.cuda.is_available() else t.device('cpu')
 
     Load_train = LoadDataset([cfg.TRAIN_ROOT, cfg.TRAIN_LABEL], cfg.crop_size)
@@ -21,9 +29,15 @@ if __name__ == "__main__":
     Load_val = LoadDataset([cfg.VAL_ROOT, cfg.VAL_LABEL], cfg.crop_size)
     val_data = DataLoader(Load_val, batch_size=cfg.BATCH_SIZE, shuffle=True, num_workers=2)
 
-    net = CSC_Unet.CSC_UNet(cfg.DATASET[1], cfg.unfolding).to(device)
-
-
+    net = CSC_UNet(NUM_CLASS, UNFOLDING)
+    # net = UNetPP(NUM_CLASS)
+    # net = CSCUNetPP(NUM_CLASS, UNFOLDING)
+    # net = UNetPPP(NUM_CLASS)
+    # net = CSCUNetPPP(NUM_CLASS, UNFOLDING)
+    # net = DeepLabv3p(NUM_CLASS)
+    # net = CSCDeepLabv3p(NUM_CLASS, UNFOLDING)
+    
+    net.to(device)
     criterion = nn.NLLLoss().to(device)
     optimizer = optim.Adam(net.parameters(), lr=cfg.lr)
 
